@@ -14,7 +14,7 @@ The DNA layer that gives every repo an `index.md` describing itself.
 Declare it as a dev-dependency and initialize once:
 
 ```bash
-pnpm add -D @tssuite/dna-index   # TypeScript projects
+pnpm add -D @ggdna/dna-index   # TypeScript projects
 dart pub add dev:dna_index    # Dart projects
 helix init
 ```
