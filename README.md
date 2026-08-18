@@ -4,7 +4,7 @@ The DNA layer that gives every repo an `index.md` describing itself.
 
 ## Content
 
-- `dna/doc/en/guides/index-guide.md` — when to create and update the
+- `dna/doc/guides/index-guide.md` — when to create and update the
   index
 - `dna/doc/templates/index-template.md` — domain, goal and interfaces of a
   repo
