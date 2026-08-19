@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "0.2.0",
+      "resolvedVersion": "1.0.1",
       "via": null,
       "hash": "0x705e486e88a93125"
     },
@@ -15,27 +15,30 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x097241d3332b587b"
+      "hash": "0x1d92b0add37a1ac7"
     }
   ],
   "claude": {
     "claudeMdInclude": null
   },
-  "baseVersion": "0.2.0",
+  "baseVersion": "1.0.1",
   "baseHash": "0x705e486e88a93125",
-  "hash": null,
   "instances": [
     {
+      "path": ".claude/skills/index/SKILL.md",
+      "hash": "0xc47429e51622cd7b"
+    },
+    {
       "path": "doc/guides/index-guide.md",
-      "hash": "0xdd831e4a9b1e2a3b"
+      "hash": "0xc684cc8895b98403"
     },
     {
       "path": "doc/hello_world.md",
       "hash": "0x0903f7fc5224f6f1"
     },
     {
-      "path": "doc/templates/index-template.md",
-      "hash": "0x8249f77900b5a5d3"
+      "path": "doc/templates/index-template.jsonc",
+      "hash": "0x16c3a8d50c72ed6d"
     }
   ]
 }

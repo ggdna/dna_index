@@ -1,13 +1,30 @@
 # dna_index
 
-The DNA layer that gives every repo an `index.md` describing itself.
+The DNA layer that gives every repo an `index.jsonc` describing itself.
 
-## Content
+## Guides
 
-- `dna/doc/guides/index-guide.md` — when to create and update the
-  index
-- `dna/doc/templates/index-template.md` — domain, goal and interfaces of a
-  repo
+- `dna/doc/guides/index-guide.md` — when to create the index, how to use
+  it for planning, and when to update it
+
+## Templates
+
+- `dna/doc/templates/index-template.jsonc` — name, summary, domain and
+  interfaces of a repo, with a comment explaining each field
+
+## Skills
+
+- `/index` — compares the index against the code that is actually there
+  and reports entries that no longer exist
+
+## Layers
+
+Orthogonal: this layer carries only its own topic and is combined with
+other layers by the consuming repo.
+
+## Variables
+
+- `dnaCopyrightHolder` — the name in the license header of every file
 
 ## Usage
 
@@ -15,18 +32,14 @@ Declare it as a dev-dependency and initialize once:
 
 ```bash
 pnpm add -D @ggdna/dna-index   # TypeScript projects
-dart pub add dev:dna_index    # Dart projects
+dart pub add dev:dna_index         # Dart projects
 helix init
 ```
 
-The placed test instantiates and verifies the DNA on every test run. This
-layer sits on top of
-[dna_base](https://github.com/ggsuite/dna_base) — everything generic comes
-from there, this repo only adds its own topic.
+The placed test instantiates and verifies the DNA on every test run.
 
 ## Development
 
-This repo has `role: "dna"` in `dna/_dna.json`: the `dna/` folder is
-authored by hand, never generated. The repo instantiates its own DNA — run
-`dart test` after changes; commit first (a file the DNA would overwrite
-must not carry uncommitted work).
+The `dna/` folder is hand-authored source and is never generated. The repo
+instantiates its own DNA — run `dart test` after changes; commit first, a
+file the DNA would overwrite must not carry uncommitted work.
