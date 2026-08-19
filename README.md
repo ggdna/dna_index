@@ -1,13 +1,13 @@
 # dna_index
 
-The DNA layer that gives every repo an `index.md` describing itself.
+The DNA layer that gives every repo an `index.jsonc` describing itself.
 
 ## Content
 
 - `dna/doc/guides/index-guide.md` — when to create and update the
   index
-- `dna/doc/templates/index-template.md` — domain, goal and interfaces of a
-  repo
+- `dna/doc/templates/index-template.jsonc` — name, summary, domain and
+  interfaces of a repo
 
 ## Usage
 
