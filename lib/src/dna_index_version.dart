@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `dna_index` package.
-const String dnaIndexVersion = '0.1.1';
+const String dnaIndexVersion = '0.1.2';
