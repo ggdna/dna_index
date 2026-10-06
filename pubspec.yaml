@@ -1,6 +1,6 @@
 name: dna_index
 description: "DNA layer: the index.md guide and template describing each repo"
-version: 0.1.2
+version: 0.1.3
 repository: https://github.com/ggdna/dna_index.git
 
 environment:
