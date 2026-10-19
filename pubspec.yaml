@@ -1,5 +1,5 @@
 name: dna_index
-description: "DNA layer: the index.md guide and template describing each repo"
+description: "Gives a repo an index.jsonc that describes it for planning, with a guide, a template and a skill that keeps it current."
 version: 0.2.0
 repository: https://github.com/ggdna/dna_index.git
 
