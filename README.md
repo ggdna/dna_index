@@ -17,6 +17,12 @@ The DNA layer that gives every repo an `index.jsonc` describing itself.
 - `/index` — compares the index against the code that is actually there
   and reports entries that no longer exist
 
+## Publishing
+
+`dna/dot-pubignore` keeps `/doc/guides/` and `/doc/templates/` out of the
+package `dart pub publish` uploads. helix joins it with the ignore files of the
+other layers into the project's `.pubignore`.
+
 ## Layers
 
 Orthogonal: this layer carries only its own topic and is combined with
