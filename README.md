@@ -4,12 +4,18 @@ The DNA layer that gives every repo an `index.jsonc` describing itself.
 
 ## Guides
 
-- `dna/doc/guides/index-guide.md` — when to create the index, how to use
+- `dna/doc/en/guides/index-guide.md` — when to create the index, how to use
   it for planning, and when to update it
+
+Every file of `dna/doc/en/` also ships in German and Farsi, with the
+same name:
+
+- `dna/doc/de/guides/`
+- `dna/doc/fa/guides/`
 
 ## Templates
 
-- `dna/doc/templates/index-template.jsonc` — name, summary, domain and
+- `dna/doc/en/templates/index-template.jsonc` — name, summary, domain and
   interfaces of a repo, with a comment explaining each field
 
 ## Skills
@@ -19,7 +25,7 @@ The DNA layer that gives every repo an `index.jsonc` describing itself.
 
 ## Publishing
 
-`dna/dot-pubignore` keeps `/doc/guides/` and `/doc/templates/` out of the
+`dna/dot-pubignore` keeps `/doc/*/guides/` and `/doc/*/templates/` out of the
 package `dart pub publish` uploads. helix joins it with the ignore files of the
 other layers into the project's `.pubignore`.
 
