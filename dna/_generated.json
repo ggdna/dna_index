@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.16.0",
+      "resolvedVersion": "1.18.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xbe90f34600be3cca"
+      "hash": "0x532ce1a52531ab4e"
     }
   ],
   "claude": {
@@ -23,25 +23,34 @@
     "claudeMdFromDna": false,
     "blockHash": null
   },
-  "baseVersion": "1.16.0",
+  "baseVersion": "1.18.0",
   "baseHash": "0x6883da335b415f9d",
   "configHash": "0x0d4ac600e4df748f",
+  "gitignoreHash": "0x1b0ee74d5e941279",
   "instances": [
     {
       "path": ".claude/skills/index/SKILL.md",
-      "hash": "0xc47429e51622cd7b"
+      "hash": "0x5027896ead21ed4e"
     },
     {
       "path": ".pubignore",
-      "hash": "0xf54303d9193038d4"
+      "hash": "0x08e10d363aa7b170"
     },
     {
-      "path": "doc/guides/index-guide.md",
-      "hash": "0xc684cc8895b98403"
+      "path": "doc/de/guides/index-guide.md",
+      "hash": "0x21965a4bf182cead"
     },
     {
-      "path": "doc/templates/index-template.jsonc",
+      "path": "doc/en/guides/index-guide.md",
+      "hash": "0xccae569b6c010e52"
+    },
+    {
+      "path": "doc/en/templates/index-template.jsonc",
       "hash": "0x16c3a8d50c72ed6d"
+    },
+    {
+      "path": "doc/fa/guides/index-guide.md",
+      "hash": "0x8368dfac1e5c5740"
     }
   ]
 }
